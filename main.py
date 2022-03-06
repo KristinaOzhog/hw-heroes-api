@@ -24,6 +24,3 @@ has_bb = max(Hulk_int, Captain_America_int, Thanos_int)
 for b in heroes:
     if int(b['intelligence']) == has_bb:
         print(f'Самый умный: ', b['name'])
-
-
-# print(Hulk_pow.json())
